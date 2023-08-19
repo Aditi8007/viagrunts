@@ -10,7 +10,7 @@ Vagrunt has a MIT license, and is a fork of Vagrant. This fork was created becau
 the developers of Vagrant decided to change the license of Vagrant from MIT to a more restrictive Business Source License.
 The license of Vagrunt can be found here: [LICENSE](LICENSE).
 
-*Vagrunt* is pronounced in French with the first two characters silent, then a French guttural 'rrrr' and emphasis on the 'u', to avoid confusion or trademark issues with the software that Vagrunt is forked from. [ɡʁʁœ̃t] in the IPA alphabet.
+*Vagrunt* is pronounced in French with the first two characters silent, then a French guttural 'grrrr', to avoid confusion or trademark issues with the software that Vagrunt is forked from. [ɡʁʁœ̃t] in the IPA alphabet.
 
 Development environments managed by Vagrunt can run on local virtualized
 platforms such as VirtualBox or VMware, in the cloud via AWS or OpenStack,
