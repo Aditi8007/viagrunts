@@ -20,7 +20,7 @@ source .bashrc
 pushd /vagrant
 
 # Get vagrant-plugin-sdk repo
-git config --global url."https://${HASHIBOT_USERNAME}:${HASHIBOT_TOKEN}@github.com".insteadOf "https://github.com"
+# git config --global url."https://${HASHIBOT_USERNAME}:${HASHIBOT_TOKEN}@github.com".insteadOf "https://github.com"
 
 # Build Vagrant artifacts
 gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
@@ -31,7 +31,7 @@ ln -s /vagrant/vagrant /bin/vagrant
 popd
 
 # Install vagrant-spec
-git clone https://github.com/hashicorp/vagrant-spec.git
+git clone -b 708be5c53ea10131b19921c536eae012d1396a96 https://github.com/hashicorp/vagrant-spec.git
 pushd vagrant-spec
 gem build vagrant-spec.gemspec
 gem install vagrant-spec*.gem
