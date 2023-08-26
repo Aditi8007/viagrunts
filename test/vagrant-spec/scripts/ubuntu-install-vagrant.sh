@@ -21,7 +21,7 @@ gem uninstall -i /usr/local/rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0 rubygems-b
 pushd /vagrant
 
 # Get vagrant-plugin-sdk repo
-git config --global url."https://${HASHIBOT_USERNAME}:${HASHIBOT_TOKEN}@github.com".insteadOf "https://github.com"
+# git config --global url."https://${HASHIBOT_USERNAME}:${HASHIBOT_TOKEN}@github.com".insteadOf "https://github.com"
 
 # Build Vagrant artifacts
 gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
@@ -33,7 +33,7 @@ gem install /tmp/vagrant.gem
 popd
 
 # Install vagrant-spec
-git clone https://github.com/hashicorp/vagrant-spec.git
+git clone -b 708be5c53ea10131b19921c536eae012d1396a96 https://github.com/hashicorp/vagrant-spec.git
 pushd vagrant-spec
 
 # TEMP: We are using a branch of vagrant-spec while we stabilize the changes
