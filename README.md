@@ -1,28 +1,27 @@
-# Vagrunt
+# Viagrunts
 
-- Website: https://github.com/vaagrunt/vagrunt
-- Source: https://github.com/vaagrunt/vagrunt
+- Website: https://github.com/vaagrunt/viagrunts
+- Source: https://github.com/vaagrunt/viagrunts
 
+Viagrunts is a tool for building and distributing development environments.
 
-Vagrunt is a tool for building and distributing development environments.
-
-Vagrunt has a MIT license, and is a fork of Vagrant. This fork was created because
+Viagrunts has a MIT license, and is a fork of Vagrant. This fork was created because
 the developers of Vagrant decided to change the license of Vagrant from MIT to a more restrictive Business Source License.
 The license of Vagrunt can be found here: [LICENSE](LICENSE).
 
-*Vagrunt* is pronounced in French with the first two characters silent, then a French guttural 'grrrr', to avoid confusion or trademark issues with the software that Vagrunt is forked from. [ɡʁʁœ̃t] in the IPA alphabet.
+*Viagrunts* is pronounced in French with the first three characters silent, then a French guttural 'grrrr', to avoid confusion or trademark issues with the software that Vagrunt is forked from. [ɡʁʁœ̃ts] in the IPA alphabet.
 
 Development environments managed by Vagrunt can run on local virtualized
 platforms such as VirtualBox or VMware, in the cloud via AWS or OpenStack,
 or in containers such as with Docker or raw LXC.
 
-Vagrunt provides the framework and configuration format to create and
+Viagrunts provides the framework and configuration format to create and
 manage complete portable development environments. These development
 environments can live on your computer or in the cloud, and are portable
 between Windows, Mac OS X, and Linux.
 
 ## Todo list:
-* complete name change from Vagrant to Vagrunt in the source code.
+* complete name change from Vagrant to Viagrunts in the source code.
 * Windows and Linux builds of Vagrunt
 
 ## Quick Start
@@ -55,7 +54,7 @@ the box doesn't already exist on your system.
 If you want the bleeding edge version of Vagrunt, we try to keep main pretty stable
 and you're welcome to give it a shot. Please review the installation page [here](https://www.Vagruntup.com/docs/installation/source).
 
-## Contributing to Vagrunt
+## Contributing to Viagrunts
 
 Please submit pull requests on GitHub.
 
